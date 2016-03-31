@@ -104,7 +104,7 @@ export default class UnboundInput extends React.Component {
    */
 
   _errors(nextValue = this._value()) {
-    const{errors} = this.props
+    let errors = this.props.errors
     let validate = (
       (this.isModified() || this.state.validationRequested) &&
       this.props.validate
