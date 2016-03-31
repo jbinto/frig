@@ -1,4 +1,6 @@
 import React from "react"
+
+import ErrorsNormalizer from "../higher_order_components/errors_normalizer.js"
 import frigValidations from "../validations.js"
 import {entries, humanize} from "../util.js"
 
